@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background-color: blue;
+    color: white;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: aqua;
+
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 4.2rem 6.2rem;
+}
+
+.title {
+    padding: 3.2rem 6.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h3 {
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+    width: fit-content;
+    position: relative;
+}
+
+.title h3::after {
+    content: '';
+    position: absolute;
+    background-color: #303956;
+    width: 80px;
+    height: 3px;
+    bottom: -10px;
+    left: 10px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid__2-columns {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__3-columns {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid__4-columns {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main__heading {
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #001220;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer span {
+    border-bottom: #fff 2px solid;
+}

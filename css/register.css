@@ -1,0 +1,194 @@
+.register,
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1.8rem;
+    background-image: url(../images/back.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+
+}
+
+.register-content {
+    background-color: #297ea686;
+    padding: 3.2rem;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+h2 {
+    font-size: 4.2rem;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+}
+
+.register-content div {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.register-content label {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    margin: 5px 0;
+}
+
+
+
+.register-content input {
+    border: none;
+    padding: 1.4rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow:
+        0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+}
+
+.user-name-alert,
+.user-email-alert,
+.user-pass-alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.correct-fUser-name {
+    background-color: #b5cec2;
+    color: #198754;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #303956;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+    width: 100%;
+    margin: 10px 0;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+button:hover {
+    color: #303956;
+    background-color: white;
+
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.star {
+    color: red;
+    font-size: 2rem;
+}
+
+
+.wrong-data {
+    color: red;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.requireInfo,
+.requireInfo2 {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-btn {
+    display: block;
+    background-color: #303956;
+    color: white;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.login-btn:hover {
+    color: #303956;
+    background-color: white;
+}
+
+.register p:last-child a:active,
+.login p:last-child a:active {
+    color: blue;
+}

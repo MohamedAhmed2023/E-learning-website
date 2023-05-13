@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/register.css" />
+
+    <script src="js/register.js" defer></script>
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="register">
+      <div
+        class="register-content animate__animated animate__zoomInDown animate__slow"
+      >
+        <h2>Register</h2>
+
+        <div class="first-name">
+          <label for="first-name">First Name</label><span class="star">*</span
+          ><br />
+          <input
+            type="text"
+            id="first-name"
+            required
+            placeholder="First Name"
+            name="first-name"
+          />
+          <p class="user-name-alert hide">
+            Username must start with capital letter and contains at least 3
+            letters
+          </p>
+        </div>
+
+        <div class="email">
+          <label for="email">Email</label><span class="star">*</span><br />
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Email"
+            name="email"
+          />
+          <p class="user-email-alert hide">Invalid Email Address!</p>
+        </div>
+
+        <div class="password">
+          <label for="password">Password</label><span class="star">*</span
+          ><br />
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="Password"
+            name="password"
+          />
+          <p class="user-pass-alert hide">
+            Password must be 5 charachters at least Cannot contain special
+            charachters
+          </p>
+        </div>
+        <p class="requireInfo hide" id="requireInfo">All info are required</p>
+        <div class="submit">
+          <button type="submit" id="confirmBtn">Submit</button>
+        </div>
+        <p>
+          You have an account ? <a href="#" class="goToRegister">Sign in</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="login hide">
+      <div
+        class="register-content animate__animated animate__backInLeft animate__slow"
+      >
+        <h2>Login</h2>
+        <div class="email">
+          <label for="login-email">Email</label><span class="star">*</span
+          ><br />
+          <input
+            type="email"
+            id="login-email"
+            required
+            placeholder="Email"
+            name="email"
+          />
+        </div>
+
+        <div class="password">
+          <label for="login-password">Password</label><span class="star">*</span
+          ><br />
+          <input
+            type="password"
+            id="login-password"
+            required
+            placeholder="Password"
+            name="password"
+          />
+        </div>
+
+        <p class="requireInfo2 hide" id="requireInfo">All info are required</p>
+
+        <p class="wrong-data hide">
+          invalid email or password Please try again!
+        </p>
+
+        <div class="submit-login">
+          <a class="login-btn">Login</a>
+        </div>
+        <p>You don't have an account ? <a href="register.html">Sign Up</a></p>
+      </div>
+    </div>
+  </body>
+</html>

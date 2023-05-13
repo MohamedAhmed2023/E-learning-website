@@ -1,0 +1,241 @@
+/* HEADER SECTION */
+
+header {
+    background-color: #FFF;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+header .container {
+    padding: 1.2rem 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    padding: 1rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo-name {
+    font-size: 2.4rem;
+    margin: 0 1.4rem;
+}
+
+nav {
+    display: flex;
+    gap: 1.4rem;
+}
+
+nav ul {
+    margin-left: 20px;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+.inputs {
+    display: flex;
+    gap: 15px;
+}
+
+.inputs input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #303956;
+    width: 250px;
+}
+
+.inputs input::placeholder {
+
+    font-size: 17px;
+}
+
+.register-btnn {
+    padding: 8px 16px;
+    background-color: #303956;
+    color: white;
+    border-radius: 5px;
+}
+
+.register-btnn a {
+    background-color: #303956;
+    color: white;
+
+}
+
+
+nav ul li a {
+    color: #001220;
+}
+
+
+
+
+.menu,
+.user,
+.light {
+    background-color: rgba(39, 44, 51, .3);
+    padding: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menu-box {
+    font-size: 2.4rem;
+    display: none;
+}
+
+.close-icon {
+    display: none;
+}
+
+
+/* COURSES SECTION*/
+
+.courses-section {
+    background-color: white;
+    border-top: 2px solid #dfe2e6;
+    padding-top: 8.4rem;
+    gap: 15px;
+}
+
+.courses-section .title h3::after {
+    left: 25px;
+    color: #303956;
+}
+
+.courses-section .container {
+    gap: 2rem;
+    padding-top: 0;
+}
+
+.course-box {
+    background-color: #fff;
+    box-shadow: rgba(1, 12, 31, 0.25) 0px 4px 8px -5px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    margin: 10px 0;
+}
+
+.course-box:hover {
+    box-shadow: 0 3px 5px -1px rgba(39, 44, 51, .1), 0 5px 8px 0 rgba(39, 44, 51, .04), 0 1px 14px 0 rgba(39, 44, 51, .02);
+}
+
+.course-img-box {
+    width: 100%;
+    position: relative;
+}
+
+.videos-num {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: .5rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.course-img-box img {
+    width: 100%;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.course-text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.6rem 1rem;
+}
+
+.course-text-fav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.course-text-fav P {
+    font-size: 1.6rem;
+    color: #303956;
+    margin: 10px 0;
+}
+
+.course-footer {
+    padding: 0 1.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.course-footer a {
+    /* padding: 0 1.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width: 100%;
+    text-align: center;
+}
+
+.view__list {
+    background-color: #303956;
+    color: white;
+    padding: 1.4rem 2rem;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.view__list:hover {
+    background-color: #303956;
+}
+
+.course-box:first-child,
+.course-box:nth-child(odd) {
+    margin-left: auto;
+}

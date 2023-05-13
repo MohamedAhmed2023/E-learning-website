@@ -1,0 +1,194 @@
+.watch-video-section {
+    background-color: #e9edf2;
+}
+
+.video {
+    background-color: white;
+    padding: 2.4rem;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.video h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.video-info {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.9rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid #ccced0;
+}
+
+.parent-span {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.parent-span span:first-child {
+    color: blue;
+}
+
+.parent-span span:last-child {
+    color: rgba(39, 44, 51, .7);
+}
+
+.author {
+    display: flex;
+    gap: 1.4rem;
+    margin: 20px 0;
+}
+
+.author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.author-text p:first-child {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.author-text p:last-child {
+    font-size: 1.4rem;
+}
+
+.view-playlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-playlist a {
+    background-color: blue;
+    color: white;
+    padding: 1rem 2.4rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1.7rem;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.view-playlist a:hover {
+    background-color: #303956;
+}
+
+.view-playlist p {
+    background-color: #eee;
+    color: rgba(39, 44, 51, .7);
+    font-size: 1.7rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0..3s;
+    -webkit-transition: all 0..3s;
+    -moz-transition: all 0..3s;
+    -ms-transition: all 0..3s;
+    -o-transition: all 0..3s;
+}
+
+.view-playlist p:hover {
+    background-color: #303956;
+    color: white;
+}
+
+.author-paragraph p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: rgba(39, 44, 51, .7);
+    margin-top: 15px;
+}
+
+.comments h2 {
+    font-size: 2.4rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #ccced0;
+}
+
+.comment-box {
+    margin: 20px 0;
+    background-color: white;
+    padding: 2.4rem;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.comment-box h5 {
+    font-size: 1.9rem;
+    margin-bottom: 1.7rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: 1px solid #eee;
+    background-color: #e9edf2;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    resize: none;
+}
+
+.comment-box a {
+    color: white;
+    font-size: 1.7rem;
+    background-color: blue;
+    padding: 1.4rem 2.4rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.comment-box a:hover {
+    background-color: #303956;
+}
